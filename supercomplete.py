@@ -9,7 +9,10 @@ menu = """
 	6 Print a multiplication table to 12
 	7 Play a guessing game
 	8 Choose sum y product
+	9 Exit
 	"""
+while(true):
+
 print(menu)
 choice = input()
 
@@ -107,3 +110,8 @@ elif choice == "8":
 			product = product * n
 			n = n - 1
 	print("Your product is", product)
+elif choice == "9"
+	break
+else:
+	print ("Invalid Choice")
+
